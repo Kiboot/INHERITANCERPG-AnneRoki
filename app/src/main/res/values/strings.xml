@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Inheritance RPG</string>
+    <string-array name="Class">
+        <item>Select One</item>
+        <item>Mage</item>
+        <item>MProd</item>
+        <item>Cultist</item>
+        <item>Marine</item>
+        <item>Mechanic</item>
+    </string-array>
+    <string-array name="Mage">
+        <item>Select One</item>
+        <item>Suncorp</item>
+        <item>Shadowcorp</item>
+    </string-array>
+    <string-array name="Mprod">
+    <item>Select One</item>
+    <item>Igor</item>
+    <item>Valkyrie</item>
+    </string-array>
+    <string-array name="Cultist">
+        <item>Select One</item>
+        <item>Warlock</item>
+        <item>Paladin</item>
+    </string-array>
+    <string-array name="Marine">
+        <item>Select One</item>
+        <item>Marauder</item>
+        <item>Marksman</item>
+    </string-array>
+    <string-array name="Mechanic">
+        <item>Select One</item>
+        <item>Highlander</item>
+        <item>Frank</item>
+    </string-array>
+    <string-array name="monsters">
+        <item>Select one </item>
+        <item>Goblin</item>
+        <item>Hastur</item>
+        <item>Imp</item>
+        <item>Slime</item>
+        <item>Spawn</item>
+    </string-array>
+
+
+</resources>
