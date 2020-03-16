@@ -356,7 +356,7 @@
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mage" />
+        app:srcCompat="@drawable/nmagen" />
 
     <ImageView
         android:id="@+id/mechanic"
@@ -367,7 +367,7 @@
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mechanic" />
+        app:srcCompat="@drawable/mechanicn" />
 
     <ImageView
         android:id="@+id/mprod"
@@ -378,7 +378,7 @@
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mprod" />
+        app:srcCompat="@drawable/nmprod" />
 
     <ImageView
         android:id="@+id/cultist"
@@ -389,7 +389,7 @@
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cultist" />
+        app:srcCompat="@drawable/ncultist" />
 
     <ImageView
         android:id="@+id/marine"
@@ -400,7 +400,7 @@
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/marine" />
+        app:srcCompat="@drawable/nmarine" />
 
     <TextView
         android:id="@+id/HP"

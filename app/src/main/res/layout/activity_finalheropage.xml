@@ -445,7 +445,7 @@
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/frank" />
+        app:srcCompat="@drawable/nfrankn" />
 
     <TextView
         android:id="@+id/HP"
