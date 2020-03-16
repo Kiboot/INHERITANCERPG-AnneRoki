@@ -14,9 +14,9 @@
         <item>Shadowcorp</item>
     </string-array>
     <string-array name="Mprod">
-    <item>Select One</item>
-    <item>Igor</item>
-    <item>Valkyrie</item>
+        <item>Select One</item>
+        <item>Igor</item>
+        <item>Valkyrie</item>
     </string-array>
     <string-array name="Cultist">
         <item>Select One</item>

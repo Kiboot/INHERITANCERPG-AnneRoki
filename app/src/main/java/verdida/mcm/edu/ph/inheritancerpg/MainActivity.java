@@ -4,38 +4,36 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    Button hero;
-    Button monster;
+   private static int splash=5000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        hero=findViewById(R.id.Heroes);
-        monster=findViewById(R.id.Monster);
+        new Handler().postDelayed(new Runnable() {
 
-        hero.setOnClickListener(
-                new View.OnClickListener(){
-                    @Override
-                    public void onClick(View v) {
-                        Intent hero =new Intent(MainActivity.this,Heropage.class);
-                        startActivity(hero);
-                    }
+// Using handler with postDelayed called runnable run method
 
-                }
-        );
-        monster.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent monster =new Intent(MainActivity.this,Monsterpage.class);
-                        startActivity(monster);
-                    }
-                }
-        );
+            @Override
+
+            public void run() {
+
+                Intent i = new Intent(MainActivity.this, home.class);
+
+                startActivity(i);
+
+                // close this activity
+
+                finish();
+
+            }
+
+        }, 5*1000); // wait for 5 seconds
+
 
     }
 

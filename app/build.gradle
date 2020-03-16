@@ -13,7 +13,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    dependencies { testImplementation 'org.codehaus.groovy:groovy-all:2.4.15' }
     buildTypes {
         release {
             minifyEnabled false
