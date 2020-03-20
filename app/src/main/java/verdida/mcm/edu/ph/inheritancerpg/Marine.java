@@ -147,10 +147,10 @@ public class Marine extends CharbaseStats {
         return bint + (gint*lvl);
     }
     public double hpinc(){
-        return super.getBhp() + (5*vitinc());
+        return super.getBhp() + (12*vitinc());
     }
     public double mpinc(){
-        return super.getBmp() + (25*intinc());
+        return super.getBmp() + (7*intinc());
     }
     public double patkinc(){
         return super.getBpatk() + (1.5*agiinc());
